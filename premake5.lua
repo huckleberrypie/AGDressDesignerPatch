@@ -1,7 +1,7 @@
-workspace "SilentPatchAqua"
+workspace "AGDressDesignerPatch"
 	platforms { "Win32" }
 
-project "SilentPatchAqua"
+project "AGDressDesignerPatch"
 	kind "SharedLib"
 	targetextension ".asi"
 	language "C++"

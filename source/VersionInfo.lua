@@ -1,8 +1,8 @@
 defines { 
-    "rsc_FullName=\"SilentPatch for AquaNox\"",
+    "rsc_FullName=\"Patch for American Girls Dress Designer\"",
     "rsc_MinorVersion=0",
-    "rsc_RevisionID=2",
+    "rsc_RevisionID=1",
     "rsc_BuildID=0",
-    "rsc_Copyright=\"2020\"",
-    "rsc_UpdateURL=\"https://github.com/CookiePLMonster/SilentPatchAqua/releases\""
+    "rsc_Copyright=\"2024\"",
+    "rsc_UpdateURL=\"https://github.com/huckleberrypie/AGDressDesignerPatch/releases\""
 }

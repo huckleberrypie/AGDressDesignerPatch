@@ -19,10 +19,20 @@ jobs:
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
+        
+      - name: Install MinHook via vcpkg
+        run: |
+          vcpkg install minhook:x86-windows
 
       - name: Generate Project Files
         run: premake5 vs2022
         
+<<<<<<< Updated upstream
+=======
+      - name: List Files (Debug)
+        run: dir
+
+>>>>>>> Stashed changes
       - name: Build Patch (Release x86)
         run: |
           msbuild build/AGDressDesignerPatch.sln `

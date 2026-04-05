@@ -8,6 +8,14 @@ project "AGDressDesignerPatch"
 
 	include "source/VersionInfo.lua"
 	files { "**/MemoryMgr.h", "**/Patterns.*", "**/HookInit.hpp" }
+	
+	includedirs { 
+        "$(VCPKG_INSTALLATION_ROOT)/installed/x86-windows/include" 
+    }
+    libdirs { 
+        "$(VCPKG_INSTALLATION_ROOT)/installed/x86-windows/lib" 
+    }
+    links { "minhook" }
 
 
 workspace "*"
@@ -56,3 +64,4 @@ filter { "toolset:*_xp"}
 
 filter { "toolset:not *_xp"}
 	buildoptions { "/permissive-" }
+	

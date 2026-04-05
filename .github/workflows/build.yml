@@ -21,7 +21,10 @@ jobs:
         uses: microsoft/setup-msbuild@v2
 
       - name: Generate Project Files
-        run: premake5 vs2026
+        run: premake5 vs2022
+        
+      - name: List Files (Debug)
+        run: dir
 
       - name: Build Patch (Release x86)
         run: |

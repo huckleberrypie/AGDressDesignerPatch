@@ -22,7 +22,7 @@ If you just want to fix your game, download the latest release.
 
 1.  Download the latest `.zip` from the **[Releases](../../releases)** page.
 
-2.  Extract the contents of the folder to where you installed the game (e.g. ** C:\Program Files (x86)\American Girl\The American Girls Dress Designer **)
+2.  Extract the contents of the folder to where you installed the game (e.g. **C:\Program Files (x86)\American Girl\The American Girls Dress Designer**)
 
 ## Building from source (for developers)
 

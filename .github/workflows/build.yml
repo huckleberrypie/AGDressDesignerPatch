@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Patch (Release x86)
         run: |
-          msbuild AGDressDesignerPatch.sln `
+          msbuild build/AGDressDesignerPatch.sln `
             -property:Configuration=Release `
             -property:Platform=x86 `
             -t:Rebuild

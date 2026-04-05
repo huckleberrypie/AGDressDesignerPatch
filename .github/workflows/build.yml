@@ -27,6 +27,12 @@ jobs:
       - name: Generate Project Files
         run: premake5 vs2022
         
+      - name: Update Utils to Latest
+        run: |
+          cd source/Utils
+          git checkout master
+          git pull origin master
+        
       - name: Build Patch (Release x86)
         run: |
           msbuild build/AGDressDesignerPatch.sln `
